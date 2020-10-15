@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		43014BBA25383AF400C1DA39 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014BB925383AF400C1DA39 /* main.swift */; };
+		43014BC225383B3200C1DA39 /* Carte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014BC025383B3200C1DA39 /* Carte.swift */; };
+		43014BC325383B3200C1DA39 /* Paquet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014BC125383B3200C1DA39 /* Paquet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		43014BB625383AF400C1DA39 /* Bataille */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bataille; sourceTree = BUILT_PRODUCTS_DIR; };
 		43014BB925383AF400C1DA39 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		43014BC025383B3200C1DA39 /* Carte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carte.swift; sourceTree = "<group>"; };
+		43014BC125383B3200C1DA39 /* Paquet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paquet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 		43014BB825383AF400C1DA39 /* Bataille */ = {
 			isa = PBXGroup;
 			children = (
+				43014BC025383B3200C1DA39 /* Carte.swift */,
+				43014BC125383B3200C1DA39 /* Paquet.swift */,
 				43014BB925383AF400C1DA39 /* main.swift */,
 			);
 			path = Bataille;
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43014BBA25383AF400C1DA39 /* main.swift in Sources */,
+				43014BC225383B3200C1DA39 /* Carte.swift in Sources */,
+				43014BC325383B3200C1DA39 /* Paquet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
