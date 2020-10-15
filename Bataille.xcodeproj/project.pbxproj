@@ -10,6 +10,7 @@
 		43014BBA25383AF400C1DA39 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014BB925383AF400C1DA39 /* main.swift */; };
 		43014BC225383B3200C1DA39 /* Carte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014BC025383B3200C1DA39 /* Carte.swift */; };
 		43014BC325383B3200C1DA39 /* Paquet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014BC125383B3200C1DA39 /* Paquet.swift */; };
+		43014BC525384BAB00C1DA39 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014BC425384BAB00C1DA39 /* Joueur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		43014BB925383AF400C1DA39 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		43014BC025383B3200C1DA39 /* Carte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carte.swift; sourceTree = "<group>"; };
 		43014BC125383B3200C1DA39 /* Paquet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paquet.swift; sourceTree = "<group>"; };
+		43014BC425384BAB00C1DA39 /* Joueur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				43014BC025383B3200C1DA39 /* Carte.swift */,
 				43014BC125383B3200C1DA39 /* Paquet.swift */,
 				43014BB925383AF400C1DA39 /* main.swift */,
+				43014BC425384BAB00C1DA39 /* Joueur.swift */,
 			);
 			path = Bataille;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43014BBA25383AF400C1DA39 /* main.swift in Sources */,
+				43014BC525384BAB00C1DA39 /* Joueur.swift in Sources */,
 				43014BC225383B3200C1DA39 /* Carte.swift in Sources */,
 				43014BC325383B3200C1DA39 /* Paquet.swift in Sources */,
 			);

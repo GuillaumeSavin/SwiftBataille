@@ -11,7 +11,7 @@ import Foundation
 struct Carte {
     enum Valeur : Int, CustomStringConvertible {
         
-        case deux = 0, trois, quatre, cinq, six, sept, huit, neuf, dix, valet, dame, roi, `as`
+        case deux = 0, trois, quatre, cinq, six, sept, huit, neuf, dix, valet = 11, dame = 12, roi = 13, `as` = 14
         var description : String{
             switch self {
             case .`as`:
@@ -119,10 +119,18 @@ extension Carte : CustomStringConvertible {
 
 extension Carte : Comparable {
     static func < (left: Carte, right: Carte) -> Bool {
-        if left.rawValue > right.rawValue {
+        if Int(left.valeur.rawValue) > Int(right.valeur.rawValue) {
             return false
         } else {
             return true
+        }
+    }
+    
+    static func == (left: Carte, right: Carte) -> Bool {
+        if Int(left.valeur.rawValue) == Int(right.valeur.rawValue) {
+            return true
+        } else {
+            return false
         }
     }
 }
